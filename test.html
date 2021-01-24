@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>EM-tipset 2021</title>
+  <style>
+    header{
+      background: url(img/laget.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+      
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">EM-tipset!</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#topplista">Topplistan</a></li>
+          <li><a href="#">Dagens matcher</a></li>
+          <li><a href="#">Login/Join</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#topplista">Topplistan</a></li>
+          <li><a href="#">Dagens matcher</a></li>
+          <li><a href="#">Login/Join</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="topplista">
+    <h1>Topplistan</h1>
+    <div class="row">
+      <div class="col s12 l4 ">
+        <img src="img/jeppe.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Jeppe</h2>
+        <h5>24 poäng</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/jonte.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h2 class="indigo-text text-darken-4">Jonte</h2>
+        <h5>21 poäng</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/anton.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Anton</h2>
+        <h5>4 poäng</h5>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- parallax -->
+
+  <!-- services / tabs -->
+
+  <!-- parallax -->
+
+  <!-- contact form -->
+
+  <!-- footer -->
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
